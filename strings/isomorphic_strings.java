@@ -1,6 +1,6 @@
 package strings;
 import java.util.HashMap;
-class isomorphic_strings {
+class Solution {
     public boolean isIsomorphic(String s, String t) {
         int n=s.length();
         HashMap<Character,Character> map1=new HashMap<>();
